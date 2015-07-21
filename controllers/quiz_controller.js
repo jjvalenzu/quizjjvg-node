@@ -11,3 +11,7 @@ exports.answer = function(req, res) {
     res.render('quizes/answer', { respuesta: 'Incorrecto' });
   }
 };
+
+exports.author = function(req, res){
+    res.render('author/author', {author: 'Jorge - simpatico developer en Madrid', photo:'http://www.fotosguapas.net/data/media/5/mster_been_avatar.jpg'});	
+ };

@@ -10,5 +10,6 @@ router.get('/', function(req, res) {
 
 router.get('/quizes/question',  quizController.question);     // formulario sign un
 router.get('/quizes/answer',  quizController.answer);     // formulario sign un
+router.get('/author/author', quizController.author);
 
 module.exports = router;
